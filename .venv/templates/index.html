@@ -4,7 +4,7 @@
 <html>
 
 <head>
-
+<meta name="viewport" content="initial-scale=1, width=device-width">
 <style>
 @font-face {
   font-family: 'Dosis';
@@ -21,12 +21,13 @@
 .button{
   text-align: center;
   padding: 15px 32px;
-  font-size: 16px;
+  font-size: 10px;
 }
 .version{
   font-family: 'Dosis', sans-serif;
-    text-align: bottom;
-    text-align: right;
+    position: absolute;
+        bottom: 0;
+        left: -1000;
 }
 </style>
 
@@ -37,22 +38,22 @@
 <div class="header">
 neo bot
 </div>
+<br>
 <div class="button">
-<button type="button">login</button>
+<a href="login.html"><button>login</button></a>
 </div>
+<br>
 <div class="button">
-<button type="button">create account</button>
+<a href="create.html"><button>create account</button></a>
 </div>
+<br>
 <div class="button">
-<button type="button">reset password</button>
+<a href="noacc.html"><button>continue without login</button></a>
 </div>
-<div class="button">
-<button type="button">continue without login</button>
-</div>
+<br>
 <div class="version">
 version alpha
 </div>
-
 </body>
 
 </html>
