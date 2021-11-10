@@ -13,3 +13,15 @@ def index():
 @app.route("/login")
 def login():
     return render_template("login.html")
+
+@app.route("/create")
+def login():
+    return render_template("create.html")
+
+@app.route("/noacc")
+def login():
+    return render_template("noacc.html")
+
+@app.route("/botpage")
+def login():
+    return render_template("botpage.html")
