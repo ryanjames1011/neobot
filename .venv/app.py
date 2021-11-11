@@ -15,13 +15,13 @@ def login():
     return render_template("login.html")
 
 @app.route("/create")
-def login():
+def create():
     return render_template("create.html")
 
 @app.route("/noacc")
-def login():
+def noacc():
     return render_template("noacc.html")
 
 @app.route("/botpage")
-def login():
+def botpage():
     return render_template("botpage.html")
