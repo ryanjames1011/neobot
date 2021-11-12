@@ -35,6 +35,21 @@
   left: 600px;
   top: 300px;
 }
+.login{
+ font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-size:200%; 
+}
+.container {
+  font-family: 'Dosis', sans-serif;
+  position: fixed;
+  width: 340px;
+  height: 280px;
+  top: 50%;
+  left: 50%;
+  margin-top: -140px;
+  margin-left: -170px;
+}
 </style>
 
 </head>
@@ -46,6 +61,10 @@ neo bot
 <i class="fas fa-comments"></i>
 </div>
 <br>
+<div class="login">
+login
+</div>
+<br>
 <div class="version">
 version alpha
 </div>
@@ -55,6 +74,18 @@ version alpha
 <br>
 <div class="passwordicon">
 <i class="fas fa-lock"></i>
+</div>
+<div id="container">       
+<form>
+<label for="username">Username:</label>
+<input type="text" id="username" name="username">
+<label for="password">Password:</label>
+<input type="password" id="password" name="password">
+<div id="lower">
+<input type="checkbox"><label for="checkbox">Keep me logged in</label>
+<input type="submit" value="Login">
+</div>
+</form>
 </div>
 </body>
 
