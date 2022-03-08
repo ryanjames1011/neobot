@@ -14,6 +14,31 @@
             "tag": "hru",
             "patterns": ["how are you", "are you okay"],
             "responses": ["i am okay, how are you", "i am good thank you for asking"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["get me weather updates", "how's the weather", "weather news", "weather details"],
+            "responses": ["fetching weather updates ...", "looking for the weather...", "opening a window and looking out..."]
+        },
+        {
+            "tag": "google",
+            "patterns": ["googling", "search google", "google it", "google", "search"],
+            "responses": ["looking ...", "searching...", "googling..."]
+        },
+        {
+            "tag": "news",
+            "patterns": ["get me news updates", "todays news", "top headlines", "current news", "news headlines"],
+            "responses": ["getting news ...", "getting the news...", "fetching..."]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["tell me a joke", "make me laugh", "give me a joke", "joke"],
+            "responses": ["it just occurred to me that the opposite of Artificial Intelligence is Real Stupid", "What do you get when you cross a wall unit with artificial intelligence? Shelf-awareness", "So I recently learned about AI. It’s absolutely game changing", "Why did the programmers act so nice to the AI? Because it was really self conscious", "I can’t wait for an AI to reach 10% of the capabilities of the average human. Then we can replace all of parliment with a single AI"]
+        },
+        {
+            "tag": "lang",
+            "patterns": ["what language are you written in", "what programming language are you"],
+            "responses": ["i am written in python and scripting languages", "mostly python with some HTML and CSS"]
         }
     ]
 }
