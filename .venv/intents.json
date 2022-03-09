@@ -1,13 +1,13 @@
 {
     "intents": [{
             "tag": "greeting",
-            "patterns": ["hi", "hello", "hiya", "hey"],
+            "patterns": ["hi", "hello", "hiya", "hey", "yo"],
             "responses": ["hi there!", "hello!"],
             "context_set": ""
         },
         {
             "tag": "goodbye",
-            "patterns": ["bye", "Goodbye", "see ya"],
+            "patterns": ["bye", "goodbye", "see ya"],
             "responses": ["byebye", "have a nice day", "bye!"]
         },
         {
@@ -33,12 +33,22 @@
         {
             "tag": "joke",
             "patterns": ["tell me a joke", "make me laugh", "give me a joke", "joke"],
-            "responses": ["it just occurred to me that the opposite of Artificial Intelligence is Real Stupid", "What do you get when you cross a wall unit with artificial intelligence? Shelf-awareness", "So I recently learned about AI. It’s absolutely game changing", "Why did the programmers act so nice to the AI? Because it was really self conscious", "I can’t wait for an AI to reach 10% of the capabilities of the average human. Then we can replace all of parliment with a single AI"]
+            "responses": ["it just occurred to me that the opposite of artificial intelligence is real stupid", "what do you get when you cross a wall unit with artificial intelligence? shelf-awareness", "so i recently learned about AI. It’s absolutely game changing", "Why did the programmers act so nice to the AI? Because it was really self conscious", "I can’t wait for an AI to reach 10% of the capabilities of the average human. Then we can replace all of parliment with a single AI"]
         },
         {
             "tag": "lang",
             "patterns": ["what language are you written in", "what programming language are you"],
             "responses": ["i am written in python and scripting languages", "mostly python with some HTML and CSS"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thank you", "thanks"],
+            "responses": ["you are welcome"]
+        },
+        {
+            "tag": "nul",
+            "patterns": [],
+            "responses": ["sorry i do not understand you", "please give me more info", "not sure i understand"]
         }
     ]
 }
